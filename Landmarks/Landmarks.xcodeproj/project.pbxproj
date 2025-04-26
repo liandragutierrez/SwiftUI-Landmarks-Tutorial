@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		7E5770962DBD8441008C3AFA /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5770952DBD8441008C3AFA /* MapView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		7E1CDE722DBD5E2000373721 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		7E1CDE612DBD5E1F00373721 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E1CDE712DBD5E2000373721 /* LandmarksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E1CDE7B2DBD5E2000373721 /* LandmarksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E5770952DBD8441008C3AFA /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		7E1CDE582DBD5E1F00373721 = {
 			isa = PBXGroup;
 			children = (
+				7E5770952DBD8441008C3AFA /* MapView.swift */,
 				7E1CDE632DBD5E1F00373721 /* Landmarks */,
 				7E1CDE742DBD5E2000373721 /* LandmarksTests */,
 				7E1CDE7E2DBD5E2000373721 /* LandmarksUITests */,
@@ -236,6 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E5770962DBD8441008C3AFA /* MapView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
